@@ -59,4 +59,7 @@ export default class movieList extends Component {
             return <h1>加载完成了</h1>
         }
     }
+    loadMovielist = () => {
+        axios.get('')
+    }
 }
