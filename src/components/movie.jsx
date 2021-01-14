@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { Layout, Menu, Breadcrumb } from 'antd'
+import { Layout, Menu} from 'antd'
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons'
 import { Route, Link } from 'react-router-dom'
 import movieList from './movieList'
 const { SubMenu } = Menu
-const { Header, Content, Sider } = Layout
+const { Content, Sider } = Layout
 
 export default class movie extends Component {
     constructor(props) {

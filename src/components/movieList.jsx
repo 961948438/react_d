@@ -22,9 +22,9 @@ export default class movieList extends Component {
                 isloading: false
             })
         },5000)
-        axios.get('http://t.yushu.im/v2/movie/in_theaters').then(r => {
-            console.log(r)
-        })
+        // axios.get('http://t.yushu.im/v2/movie/in_theaters').then(r => {
+        //     console.log(r)
+        // })
         
     }
     componentWillUpdate(){
